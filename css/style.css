@@ -560,7 +560,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background: #df7366;
+			background: #0F9FB4;
 			color: #fff;
 			text-align: center;
 			border-radius: 0.5em;
@@ -583,7 +583,7 @@
 			.button:hover
 			{
 				color: #fff;
-				background: #ef8376;
+				background: #0FB493;
 			}
 			
 			input[type="button"].alt,
@@ -689,7 +689,7 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url('/images/header.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -707,7 +707,7 @@
 			.homepage #header .overlay
 			{
 				content: '';
-				background: #1C0920;
+				background: #152737;
 				display: block;
 				position: absolute;
 				left: 0;
