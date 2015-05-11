@@ -20,6 +20,7 @@
     <script src="js/skel.min.js"></script>
     <script src="js/skel-layers.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/utils.js"></script>
     <noscript>
       <link rel="stylesheet" href="css/skel.css" />
       <link rel="stylesheet" href="css/style.css" />
@@ -44,14 +45,14 @@
         
         <article class="box post post-excerpt">
           <header>
-            <h2><a href="#">A Website Was Born</a></h2>
-            <p>I sure hope this works</p>
+            <h2><a href="/blog/04-05-2015/rip-steambox.html">Rip Steambox</a></h2>
+            <p></p>
           </header>
           
           <div class="info">
             <span class="date">
-              <span class="month">Mar</span>
-              <span class="day">15</span>
+              <span class="month">Apr</span>
+              <span class="day">05</span>
               <span class="year">, 2015</span>
             </span>
             
@@ -64,15 +65,16 @@
           </div>
           
           
-          <a href="#" class="image featured"><img src="/assets/pic01.jpg" alt="My helpful screenshot" /></a>
+          <a href="/blog/04-05-2015/rip-steambox.html" class="image featured"><img src="/images/pic01.jpg" alt="My helpful screenshot" /></a>
           
-          <p>So this website building tutorial that I am following requires <em>two</em> posts. <em>sigh</em> I suppose it's a good thing. With any luck, this will give me the mindset to write more often. wootwoot!</p>
+          <p>This is actually the second time it has died. I got everything setup just the way I wanted it: All of my linux enabled games were installed, I used it as a file server and a media center, and in-home-streaming worked really well in Dragonage Inquisition. So now what?</p>
+
 
         </article>
         
         <article class="box post post-excerpt">
           <header>
-            <h2><a href="#">A Website Was Born</a></h2>
+            <h2><a href="/blog/03-15-2015/second.html">A Website Was Born</a></h2>
             <p>I sure hope this works</p>
           </header>
           
@@ -92,22 +94,23 @@
           </div>
           
           
-          <a href="#" class="image featured"><img src="/assets/pic01.jpg" alt="My helpful screenshot" /></a>
+          <a href="/blog/03-15-2015/second.html" class="image featured"><img src="/images/pic01.jpg" alt="My helpful screenshot" /></a>
           
           <p>So this website building tutorial that I am following requires <em>two</em> posts. <em>sigh</em> I suppose it's a good thing. With any luck, this will give me the mindset to write more often. wootwoot!</p>
+
 
         </article>
         
         <article class="box post post-excerpt">
           <header>
-            <h2><a href="#">A Website Was Born</a></h2>
-            <p>I sure hope this works</p>
+            <h2><a href="/blog/03-14-2015/first.html">Hello World</a></h2>
+            <p>Please take your shoes off at the door</p>
           </header>
           
           <div class="info">
             <span class="date">
               <span class="month">Mar</span>
-              <span class="day">15</span>
+              <span class="day">14</span>
               <span class="year">, 2015</span>
             </span>
             
@@ -120,9 +123,20 @@
           </div>
           
           
-          <a href="#" class="image featured"><img src="/assets/pic01.jpg" alt="My helpful screenshot" /></a>
+          <a href="/blog/03-14-2015/first.html" class="image featured"><img src="/images/asdf.png" alt="My helpful screenshot" /></a>
           
-          <p>So this website building tutorial that I am following requires <em>two</em> posts. <em>sigh</em> I suppose it's a good thing. With any luck, this will give me the mindset to write more often. wootwoot!</p>
+          <p>Hello. My name is Jerry, and you have stumbled into my little slice of the internet. I plan on using this space to show my personal projects, activities, and anything else that suits my fancy.</p>
+
+
+
+
+<h2>Comment?</h2>
+
+
+
+
+<p>So stay awhile! Have a seat, kick off your shoes and check out what I've been up to lately.</p>
+
 
         </article>
         
@@ -131,48 +145,11 @@
 <!-- Pagination -->
 
 
-<div class="pagination">
-  <a href="#" class="button previous">Previous Page</a>
-  <a href="">"1"</a>
-  <span>&hellip;</span>
-  <div class="pages">
-    
-    
-    
-    
-    
-    
-      
-        
-    <a href="/" class="active">1</a>
-        
-      
-    
-      
-      
-        
-        
-    <a href="/blog/page2">2</a>
-        
-      
-    
-      
-      
-        
-        
-    <a href="/blog/page3">3</a>
-        
-      
-    
-    
-  </div>
-  <span>&hellip;</span>
-  <a href="">"/blog/page"3</a>
-  <a href="" class="button next">Next Page</a>
+</div>
 </div>
 
-</div>
-</div>
+---
+---
 
 <!-- Sidebar -->
 <div id="sidebar">
@@ -181,25 +158,36 @@
   <!-- Nav -->
   <nav id="nav">
     <ul>
-      <li class="current"><a href="#">Latest Post</a></li>
-      <li><a href="#">Archives</a></li>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Contact Me</a></li>
+      <li class="current"><a href="/">Home</a></li>
+      <li ><a href="archives.html">Archives</a></li>
+      <li ><a href="projects.html">Projects</a></li>
+      <li ><a href="about.html">About</a></li>
     </ul>
   </nav>
   
   <!-- Search -->
   <section class="box search">
+    <form action="/search" method="get">
+      <input type="text" id="search-query" name="search" placeholder="Search" autocomplete="off">
+    </form>
+<!--
     <form method="post" action="#">
       <input type="text" class="text" name="search" placeholder="Search" />
     </form>
+-->
   </section>
+
+<section id="search-results" style="display: none;">
+  <p>Search results</p>
+  <div class="entries">
+  </div>
+</section>
   
   <!-- Text -->
   <section class="box text-style1">
     <div class="inner">
       <p>
-        A profound bit of text will go here, maybe
+        A profound bit of text will go here
       </p>
     </div>
   </section>
@@ -210,15 +198,18 @@
       <h2>Recent Posts</h2>
     </header>
     <ul>
-      <li><a href="#">Lorem ipsum dolor</a></li>
-      <li><a href="#">Feugiat nisl aliquam</a></li>
-      <li><a href="#">Sed dolore magna</a></li>
-      <li><a href="#">Malesuada commodo</a></li>
-      <li><a href="#">Ipsum metus nullam</a></li>
+      
+      <li><a href="/blog/04-05-2015/rip-steambox.html">Rip Steambox</a></li>
+      
+      <li><a href="/blog/03-15-2015/second.html">A Website Was Born</a></li>
+      
+      <li><a href="/blog/03-14-2015/first.html">Hello World</a></li>
+      
     </ul>
   </section>
 					
   <!-- Recent Comments -->
+  <!--
   <section class="box recent-comments">
     <header>
       <h2>Recent Comments</h2>
@@ -229,66 +220,11 @@
       <li>case on <a href="#">Sed dolore magna</a></li>
     </ul>
   </section>
-  
+  -->
+
   <!-- Calendar -->
   <section class="box calendar">
-    <div class="inner">
-      <table>
-        <caption>March 2015</caption>
-        <thead>
-          <tr>
-            <th scope="col" title="Monday">M</th>
-            <th scope="col" title="Tuesday">T</th>
-            <th scope="col" title="Wednesday">W</th>
-            <th scope="col" title="Thursday">T</th>
-            <th scope="col" title="Friday">F</th>
-            <th scope="col" title="Saturday">S</th>
-            <th scope="col" title="Sunday">S</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td colspan="4" class="pad"><span>&nbsp;</span></td>
-            <td><span>1</span></td>
-            <td><span>2</span></td>
-            <td><span>3</span></td>
-          </tr>
-          <tr>
-            <td><span>4</span></td>
-            <td><span>5</span></td>
-            <td><a href="#">6</a></td>
-            <td><span>7</span></td>
-            <td><span>8</span></td>
-            <td><span>9</span></td>
-            <td><a href="#">10</a></td>
-          </tr>
-          <tr>
-            <td><span>11</span></td>
-            <td><span>12</span></td>
-            <td><span>13</span></td>
-            <td class="today"><a href="#">14</a></td>
-            <td><span>15</span></td>
-            <td><span>16</span></td>
-            <td><span>17</span></td>
-          </tr>
-          <tr>
-            <td><span>18</span></td>
-            <td><span>19</span></td>
-            <td><span>20</span></td>
-            <td><span>21</span></td>
-            <td><span>22</span></td>
-            <td><a href="#">23</a></td>
-            <td><span>24</span></td>
-          </tr>
-          <tr>
-            <td><a href="#">25</a></td>
-            <td><span>26</span></td>
-            <td><span>27</span></td>
-            <td><span>28</span></td>
-            <td class="pad" colspan="3"><span>&nbsp;</span></td>
-          </tr>
-        </tbody>
-      </table>
+    <div id="myCalendar" class="inner">
     </div>
   </section>	
 
@@ -298,6 +234,7 @@
         </ul>
       </div>
     </div>
+    <!-- <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script> -->
   </body>
 </html>
 

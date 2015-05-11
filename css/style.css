@@ -14,7 +14,7 @@
 
 	body
 	{
-		background-color: #e8e8e8;
+		background-color: #EEEEEE;
 		background-image: url('/images/bg02.png');
 	}
 
@@ -299,7 +299,7 @@
 		.button
 		{
 			cursor: pointer;
-			background-color: #c94663;
+			background-color: #2B90BA;
 			background-image: url('/images/bg01.png');
 			border-radius: 0.4em;
 			text-align: center;
@@ -333,7 +333,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background-color: #d95673;
+				background-color: #00B4FF;
 			}
 			
 			input[type="button"]:active,
@@ -341,7 +341,7 @@
 			input[type="reset"]:active,
 			.button:active
 			{
-				background-color: #b93653;
+				background-color: #2B90BA;
 			}
 		
 			input[type="button"].alt,
@@ -459,7 +459,7 @@
 				.box.calendar .inner
 				{
 					position: relative;
-					background-color: #272E39;
+					background-color: #172e50;
 					background-color: rgba(0,0,0,0.15);
 					border-radius: 0.4em;
 					padding: 0.75em 0.5em 0.75em 0.5em;
@@ -529,7 +529,7 @@
 				
 				.box.calendar td.today a
 				{
-					background-color: #c94663;
+					background-color: #00B4FF;
 					background-image: url('/images/bg01.png');
 					box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.15), 0 0.025em 0.15em 0em rgba(0,0,0,0.25);
 					color: #fff !important;
@@ -782,7 +782,7 @@
 	
 		#sidebar a
 		{
-			color: #d4dde0;
+			color: #f9fec8;
 		}
 		
 		#sidebar h2,
@@ -928,5 +928,5 @@
 
 	#sidePanel
 	{
-		background: #364050 url('/images/bg01.png');
+		background: #f9fec8 url('/images/bg01.png');
 	}

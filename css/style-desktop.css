@@ -133,7 +133,7 @@
 
 							.box.post .info .stats li:hover a
 							{
-								background-color: #f4f4f4;
+								background-color: #EEEEEE;
 								opacity: 1.0;
 							}
 		
@@ -152,7 +152,7 @@
 		#logo a
 		{
 			display: block;
-			background-color: #c94663;
+			background-color: #00B4FF;
 			background-image: url('/images/bg01.png');
 			padding: 0.875em 0.25em;
 			border-radius: 0.2em;
@@ -193,7 +193,7 @@
 		top: 0;
 		padding: 3em 1.35em 1em 1.15em;
 		width: 14em; /* = whatever you want */
-		background: #364050 url('/images/bg01.png');
+		background: #515151 url('/images/bg01.png');
 		box-shadow: inset -0.1em 0em 0.35em 0em rgba(0,0,0,0.15);
 	}
 
