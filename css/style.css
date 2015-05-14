@@ -40,7 +40,7 @@
 
 	a
 	{
-		color: #c94663;
+		color: #3F8FB0;
 	}
 
 	strong, b
@@ -184,7 +184,12 @@
 			form select:focus,
 			form textarea:focus
 			{
-				box-shadow: 0px 0px 2px 2px #c94663;
+				box-shadow: 0px 0px 2px 2px #00B4FF;
+			}
+
+			form textarea
+			{
+				min-height: 14em;
 			}
 
 			form ::-webkit-input-placeholder
@@ -782,7 +787,7 @@
 	
 		#sidebar a
 		{
-			color: #f9fec8;
+			color: #BBBBBB;
 		}
 		
 		#sidebar h2,
@@ -865,7 +870,7 @@
 
 	#titleBar
 	{
-		background: #364050 url('/images/bg01.png');
+		background: #515151 url('/images/bg01.png');
 	}
 
 	#titleBar .title
@@ -909,7 +914,7 @@
 			width: 50px;
 			height: 30px;
 			line-height: 30px;
-			background: #c94663 url('/images/bg01.png');
+			background: #00B4FF url('/images/bg01.png');
 			border-radius: 5px;
 			color: #fff;
 			text-align: center;
@@ -928,5 +933,5 @@
 
 	#sidePanel
 	{
-		background: #f9fec8 url('/images/bg01.png');
+		background: #515151 url('/images/bg01.png');
 	}
