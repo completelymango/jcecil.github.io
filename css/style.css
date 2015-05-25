@@ -43,6 +43,13 @@
 		color: #3F8FB0;
 	}
 
+        div.center iframe
+        {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+        }
+
 	strong, b
 	{
 		font-weight: 700;
